@@ -220,3 +220,36 @@ div #logo {
 	width: 100%;
 	height: auto;
 }
+
+/* Food Menu */
+
+.foodMenu {
+	background: #ffffff url("../img/chalkboard.jpg") repeat;
+	width: 100%;
+	height: auto;
+	padding: 2em 0;
+}
+
+.foodMenu h2, .foodMenu p {
+	color: #ffffff;
+}
+
+.foodMenu h3 {
+	color: #8eced1;
+	border: #8eced1 solid 2px;
+	padding: 5px;
+}
+
+.foodMenu article {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+@media all and (min-width: 1035px) {
+	.foodMenu article {
+		display: inline-block;
+		width: 20%;
+		margin: 1em;
+	}
+}
