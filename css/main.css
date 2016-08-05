@@ -253,3 +253,22 @@ div #logo {
 		margin: 1em;
 	}
 }
+
+/* More */
+
+.wantMore {
+	background: #d7efee;
+	padding: 2em 0;
+}
+
+.wantMore h3 {
+	color: #f57b4a;
+	border: #f57b4a solid 2px;
+	padding: 5px;
+}
+
+.wantMore article {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
