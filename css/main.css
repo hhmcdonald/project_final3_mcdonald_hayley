@@ -196,3 +196,27 @@ div #logo {
 		width: 45%;
 	}
 }
+
+/* Slideshow */
+
+.tcycle {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+	border: #000000 solid 2px;
+}
+
+@media all and (min-width: 1035px) {
+	.tcycle {
+		float: right;
+		width: 50%;
+	}
+}
+
+.tcycle img {
+	padding: 15px;
+	width: 100%;
+	height: auto;
+}
