@@ -7,3 +7,82 @@ html {
 *::after {
 	box-sizing: inherit;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	color: #252525;
+	height: auto;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: "Pacifico", cursive;
+	font-weight: 200;
+	color: #252525;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	margin-top: 0;
+	line-height: 180%;
+	text-align: center;
+}
+
+p,
+a {
+	color: #252525;
+}
+
+main {
+	margin: 0 auto;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 2em;
+}
+
+@media all and (min-width: 1035px) {
+	.wrapper {
+		padding: 0;
+		min-height: 350px;
+	}
+}
+
+/* Navigation */
+
+#menu {
+	display: none;
+}
+
+.slicknav_nav {
+	text-align: center;
+}
+
+@media all and (min-width: 1035px) {
+	.slicknav_nav li {
+		display: inline-block;
+	}
+}
+
+/* Header */
+
+header {
+	background: #f6f2e9;
+	padding: 0 0 2em 0;
+}
