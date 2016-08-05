@@ -158,3 +158,41 @@ div #logo {
 	width: 10%;
 	height: auto;
 }
+
+/* About Us */
+
+.aboutUs {
+	background: #8eced1;
+	padding: 2em 0;
+}
+
+.aboutUs a {
+	color: #252525;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.aboutUs a:hover {
+	color: #f57b4a;
+}
+
+.aboutUs p {
+	margin: 0;
+}
+
+.bananaQuote {
+	font-size: 1.3em;
+}
+
+.aboutInfo {
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+
+@media all and (min-width: 1035px) {
+	.aboutInfo {
+		float: left;
+		width: 45%;
+	}
+}
