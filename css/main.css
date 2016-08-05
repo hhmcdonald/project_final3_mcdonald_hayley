@@ -280,3 +280,14 @@ div #logo {
 		margin: 1em;
 	}
 }
+
+/* Footer */
+
+footer {
+	background: #4c4c4c;
+	padding: 1em 0;
+}
+
+footer p, footer p a {
+	color: #ffffff;
+}
