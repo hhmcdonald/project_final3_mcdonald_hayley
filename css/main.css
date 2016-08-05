@@ -272,3 +272,11 @@ div #logo {
 	margin: auto;
 	text-align: center;
 }
+
+@media all and (min-width: 1035px) {
+	.wantMore article {
+		display: inline-block;
+		width: 28%;
+		margin: 1em;
+	}
+}
