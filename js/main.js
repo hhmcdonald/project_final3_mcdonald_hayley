@@ -18,6 +18,11 @@ $(document).ready(function () {
         }
     });
 
+    // Back to top
+    $(function () {
+        $.scrollUp();
+    });
+
 });
 
 // Custom JavaScript for slideshow clicks
