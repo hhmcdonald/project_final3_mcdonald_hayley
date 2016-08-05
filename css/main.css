@@ -86,3 +86,75 @@ header {
 	background: #f6f2e9;
 	padding: 0 0 2em 0;
 }
+
+header h1 {
+	text-align: center;
+	font-size: 2.2em;
+	margin-bottom: 0.5em;
+}
+
+.contactInfo p {
+	line-height: 1em;
+}
+
+@media all and (min-width: 1035px) {
+	header h1 {
+		font-size: 3.3em;
+		margin-top: 10%;
+	}
+	.contactInfo {
+		float: right;
+		margin-right: 10%;
+	}
+}
+
+.contactInfo li {
+	list-style-type: none;
+}
+
+div #logo {
+	text-align: center;
+}
+
+#logo img {
+	width: 30%;
+	height: auto;
+	max-width: 300px;
+	min-width: 100px;
+}
+
+@media all and (min-width: 1035px) {
+	.mobilelogo {
+		display: none;
+	}
+	#logo img {
+		float: left;
+	}
+}
+
+@media all and (max-width: 1035px) {
+	.desktoplogo {
+		display: none;
+	}
+	.mobilelogo {
+		margin-top: 1em;
+	}
+}
+
+.socialMedia {
+	text-align: center;
+	margin: auto;
+	margin-right: 10%;
+}
+
+.socialMedia li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	padding: 0 0.4em;
+}
+
+.socialMedia img {
+	width: 10%;
+	height: auto;
+}
