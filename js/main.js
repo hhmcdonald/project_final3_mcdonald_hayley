@@ -19,3 +19,10 @@ $(document).ready(function () {
     });
 
 });
+
+// Custom JavaScript for slideshow clicks
+document.getElementById('dailySlideshow').addEventListener('click', myFunction);
+
+function myFunction() {
+    document.getElementById('captionQuote').innerHTML = "<strong><em>'Everything they do is so dramatic and flamboyant. It makes me want to set myself on fire.' -Lucille</em></strong>";
+}
